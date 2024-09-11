@@ -1,0 +1,75 @@
+/* Resetting some default browser styles */
+@font-face {
+  font-family: 'Inter';
+  src: url(./assets/fonts/Inter-VariableFont_slnt,wght.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 8%); /* Dark background */
+  font-family: "Inter", system-ui;
+}
+
+.card {
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 20px;
+  padding: 2rem;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.profile-image img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+h2 {
+  margin: 1rem 0 0.5rem;
+  color:  hsl(0, 0%, 100%);
+}
+
+.location {
+  color: hsl(75, 94%, 57%);
+  font-size: 0.9rem;
+  padding: 0 0 20px 0;
+}
+
+.bio {
+  color: #ddd;
+  font-style: italic;
+  padding: 0.3rem 0 1.5rem 0;
+  font-size: 14px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btn {
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: hsl(0, 0%, 20%);
+  color:  hsl(0, 0%, 100%);
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+}

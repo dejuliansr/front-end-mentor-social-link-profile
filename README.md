@@ -20,7 +20,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ### Links
 
-- Live Site URL: [https://dejuliansr.github.io/front-end-mentor-social-links=profile](https://dejuliansr.github.io/front-end-mentor-social-links=profile)
+- Live Site URL: [https://dejuliansr.github.io/front-end-mentor-social-links-profile](https://dejuliansr.github.io/front-end-mentor-social-links-profile)
 
 ## My process
 
